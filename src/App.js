@@ -6,17 +6,19 @@ import CakeComponent from './components/CakeComponent';
 import HooksCakeComponent from './components/hooksCakeComponent';
 import IceCreamComponent from './components/IceCreamComponent';
 import NewCakeContainer from './components/NewCakeContainer';
+import UserContainer from './components/UserContainer';
 
 function App() {
   return (
     <Provider store={store}>
-      <CakeComponent/>
+      {/* <CakeComponent/>
       <hr/>
       <HooksCakeComponent/>
       <hr/>
       <IceCreamComponent/>
       <hr/>
-      <NewCakeContainer/>
+      <NewCakeContainer/> */}
+      <UserContainer/>
     </Provider>
   );
 }
