@@ -5,6 +5,7 @@ import './App.css';
 import CakeComponent from './components/CakeComponent';
 import HooksCakeComponent from './components/hooksCakeComponent';
 import IceCreamComponent from './components/IceCreamComponent';
+import NewCakeContainer from './components/NewCakeContainer';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <HooksCakeComponent/>
       <hr/>
       <IceCreamComponent/>
+      <hr/>
+      <NewCakeContainer/>
     </Provider>
   );
 }
